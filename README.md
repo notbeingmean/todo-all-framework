@@ -24,7 +24,7 @@ completed boolean NOT NULL DEFAULT false
 ## Frameworks
 
 #### Frontend 
-- [React](https://react.dev/) - Here is the [repo]() for the react app
+- [React](https://react.dev/) - Here is the [repo](https://github.com/NOTMEAN11/todo-all-framework/tree/master/frontend/react-todo) for the react app
 <!-- - [Next](https://nextjs.org/)
   - Here is the [repo]() for the pages route 
   - Here is the [repo]() for the app route
@@ -34,7 +34,7 @@ completed boolean NOT NULL DEFAULT false
 - [SvelteKit](https://kit.svelte.dev/) - Here is the [repo]() for the sveltekit app -->
 
 #### Backend 
-- [Express](https://expressjs.com/) - Here is the [repo]() for the express app
+- [Express](https://expressjs.com/) - Here is the [repo](https://github.com/NOTMEAN11/todo-all-framework/tree/master/backend/express-todo) for the express app
 <!-- - [Fastify](https://www.fastify.io/) - Here is the [repo]() for the fastify app
 - [Nest](https://nestjs.com/) - Here is the [repo]() for the nest app
 - [Gin](https://gin-gonic.com/) - Here is the [repo]() for the gin app
