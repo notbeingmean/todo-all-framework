@@ -16,4 +16,3 @@ To run this project, you will need to add the following environment variables to
 - `POSTGRES_USER` - PostgreSQL database username
 - `POSTGRES_PASSWORD` - PostgreSQL database password
 - `POSTGRES_DB` - PostgreSQL database name
-
