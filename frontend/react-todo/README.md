@@ -1,27 +1,13 @@
-# React + TypeScript + Vite
+# React Todo App
+This is a simple todo app built with React.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Technologies
+- [Vite](https://vitejs.dev/) - A fast build tool for modern web apps.
+- [React](https://reactjs.org/) - A JavaScript library for building user interfaces
+- [Zustand]() - A small, fast and scalable bearbones state-management solution.
+- [TailwindCSS](https://tailwindcss.com/) - A utility-first CSS framework for rapidly building custom designs.
+- [DaisyUI](https://daisyui.com/) - A component library for Tailwind CSS.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Example
+<img src="https://cdn.discordapp.com/attachments/965927386271055892/1151019031973875742/image.png">
