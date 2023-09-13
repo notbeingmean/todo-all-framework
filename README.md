@@ -29,9 +29,9 @@ completed boolean NOT NULL DEFAULT false
   - Here is the [repo]() for the pages route 
   - Here is the [repo]() for the app route -->
 - [Vue](https://vuejs.org/) - Here is the [repo](https://github.com/NOTMEAN11/todo-all-framework/tree/master/frontend/vue-todo) for the vue app
-<!-- - [Nuxt](https://nuxtjs.org/) - Here is the [repo]() for the nuxt app
-- [Svelte](https://svelte.dev/) - Here is the [repo]() for the svelte app
-- [SvelteKit](https://kit.svelte.dev/) - Here is the [repo]() for the sveltekit app -->
+<!-- - [Nuxt](https://nuxtjs.org/) - Here is the [repo]() for the nuxt app -->
+- [Svelte](https://svelte.dev/) - Here is the [repo](https://github.com/NOTMEAN11/todo-all-framework/tree/master/frontend/svelte-todo) for the svelte app
+<!-- - [SvelteKit](https://kit.svelte.dev/) - Here is the [repo]() for the sveltekit app -->
 
 #### Backend 
 - [Express](https://expressjs.com/) - Here is the [repo](https://github.com/NOTMEAN11/todo-all-framework/tree/master/backend/express-todo) for the express app
