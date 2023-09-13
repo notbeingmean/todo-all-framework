@@ -8,7 +8,7 @@ id int PRIMARY KEY NOT NULL,
 title text NOT NULL,
 completed boolean NOT NULL DEFAULT false
 ```
-- id is a uuid
+- id is a number that is auto incremented
 - title is the title of the todo
 - completed is a boolean that is false by default
 
@@ -27,9 +27,9 @@ completed boolean NOT NULL DEFAULT false
 - [React](https://react.dev/) - Here is the [repo](https://github.com/NOTMEAN11/todo-all-framework/tree/master/frontend/react-todo) for the react app
 <!-- - [Next](https://nextjs.org/)
   - Here is the [repo]() for the pages route 
-  - Here is the [repo]() for the app route
-- [Vue](https://vuejs.org/) - Here is the [repo]() for the vue app
-- [Nuxt](https://nuxtjs.org/) - Here is the [repo]() for the nuxt app
+  - Here is the [repo]() for the app route -->
+- [Vue](https://vuejs.org/) - Here is the [repo](https://github.com/NOTMEAN11/todo-all-framework/tree/master/frontend/vue-todo) for the vue app
+<!-- - [Nuxt](https://nuxtjs.org/) - Here is the [repo]() for the nuxt app
 - [Svelte](https://svelte.dev/) - Here is the [repo]() for the svelte app
 - [SvelteKit](https://kit.svelte.dev/) - Here is the [repo]() for the sveltekit app -->
 
