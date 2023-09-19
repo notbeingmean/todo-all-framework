@@ -2,8 +2,9 @@ package configs
 
 import (
 	"fmt"
-	"gin-todo/pkg/models"
 	"os"
+
+	"github.com/NOTMEAN11/todo-all-framework/tree/master/backend/gin-todo/pkg/models"
 
 	"github.com/joho/godotenv"
 	"gorm.io/driver/postgres"
