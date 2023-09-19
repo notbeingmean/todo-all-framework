@@ -47,4 +47,4 @@ pnpm-lock.yaml
 prisma/migrations
 
 # postges data
-postges-data
+postgres-data
