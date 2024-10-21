@@ -37,17 +37,16 @@ completed boolean NOT NULL DEFAULT false
 
 #### Backend
 
-- [Node HTTP](https://nodejs.org/) - Here is the [repo](https://github.com/NOTMEAN11/todo-all-framework/tree/master/backend/node-http-todo)
-- [Express](https://expressjs.com/) - Here is the [repo](https://github.com/NOTMEAN11/todo-all-framework/tree/master/backend/express-todo) for the express app
-- [Fastify](https://www.fastify.io/) - Here is the [repo](https://github.com/NOTMEAN11/todo-all-framework/tree/master/backend/fastify-todo) for the fastify app
-- [Nest](https://nestjs.com/) - Here is the [repo](https://github.com/NOTMEAN11/todo-all-framework/tree/master/backend/nest-todo) for the nest app
-- [Gin](https://gin-gonic.com/) - Here is the [repo](https://github.com/NOTMEAN11/todo-all-framework/tree/master/backend/gin-todo) for the gin app
-- [Fiber](https://gofiber.io/) - Here is the [repo](https://github.com/NOTMEAN11/todo-all-framework/tree/master/backend/fiber-todo) for the fiber app
-<!-- - [Echo](https://echo.labstack.com/) - Here is the [repo]() for the echo app
-- [Axum](https://docs.rs/axum/latest/axum/) - Here is the [repo]() for the axum app -->
+- [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - Here is the [repo](https://github.com/NOTMEAN11/todo-all-framework/tree/master/backend/js) for the javascript app
+<!-- - [Python](https://www.python.org/) - Here is the [repo]() for the python app -->
+- [Go](https://golang.org/) - Here is the [repo](https://github.com/NOTMEAN11/todo-all-framework/tree/master/backend/golang) for the go app
 
-<!-- #### Fullstack
-- [Next](https://nextjs.org/)
+<!-- - [Axum](https://docs.rs/axum/latest/axum/) - Here is the [repo]() for the axum app -->
+
+#### Fullstack
+
+- React Supabase - Here is the [repo](https://github.com/NOTMEAN11/todo-all-framework/tree/master/fullstack/react-supabase) for the react supabase app
+<!-- - [Next](https://nextjs.org/)
   - Here is the [repo]() for the pages route
   - Here is the [repo]() for the app route
 - [Nuxt](https://nuxtjs.org/) - Here is the [repo]() for the nuxt app
