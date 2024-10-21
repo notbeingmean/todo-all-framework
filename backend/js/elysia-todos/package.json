@@ -1,0 +1,19 @@
+{
+  "name": "elysia-todo",
+  "version": "1.0.50",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "bun run --watch src/index.ts"
+  },
+  "dependencies": {
+    "drizzle-orm": "^0.35.2",
+    "elysia": "latest",
+    "pg": "^8.13.0"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.11.10",
+    "bun-types": "latest",
+    "drizzle-kit": "^0.26.2"
+  },
+  "module": "src/index.js"
+}
