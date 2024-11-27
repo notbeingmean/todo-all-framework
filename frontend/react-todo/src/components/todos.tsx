@@ -1,10 +1,10 @@
 import React, { useEffect, useRef, useState } from "react";
 import { useTodos } from "../hooks/useTodos";
 import { cn } from "../lib/utils";
-import { Pencil } from "lucide-react";
+import { Pencil, Trash } from "lucide-react";
 
 function Todos() {
-  const { todos, fetchTodos, toggleTodo, updateTodo } = useTodos();
+  const { todos, fetchTodos, toggleTodo, updateTodo, deleteTodo } = useTodos();
   const [input, setInput] = useState("");
   useEffect(() => {
     fetchTodos();
@@ -12,15 +12,21 @@ function Todos() {
   return (
     <div className="space-y-2">
       <AddTodos />
-      <div className="card bg-base-100 w-96 shadow-xl">
+      <div className="shadow-xl card bg-base-100 w-96">
         <div className="card-body">
-          <h1 className="font-bold text-lg">Todos</h1>
+          <h1 className="text-lg font-bold">Todos</h1>
           {todos.map((todo) => (
             <div key={todo.id} className="flex items-center justify-between">
               <p className={cn(todo.completed && "line-through")}>
                 {todo.title}
               </p>
               <div className="flex space-x-2">
+                <input
+                  type="checkbox"
+                  checked={todo.completed}
+                  onChange={() => toggleTodo(todo.id, todo.completed)}
+                />
+
                 <Pencil
                   size={14}
                   className="cursor-pointer"
@@ -32,13 +38,18 @@ function Todos() {
                     ).showModal()
                   }
                 />
+                <Trash
+                  size={14}
+                  className="cursor-pointer"
+                  onClick={() => deleteTodo(todo.id)}
+                />
                 <dialog id={`my_modal_${todo.id}`} className="modal">
                   <div className="modal-box">
-                    <h3 className="font-bold text-lg">Edit Todo</h3>
+                    <h3 className="text-lg font-bold">Edit Todo</h3>
                     <input
                       type="text"
                       placeholder="Edit Todo"
-                      className="input input-bordered mt-4 mb-2 w-full"
+                      className="w-full mt-4 mb-2 input input-bordered"
                       onChange={(e) => setInput(e.currentTarget.value)}
                     />
 
@@ -58,11 +69,6 @@ function Todos() {
                     </div>
                   </div>
                 </dialog>
-                <input
-                  type="checkbox"
-                  checked={todo.completed}
-                  onChange={() => toggleTodo(todo.id, todo.completed)}
-                />
               </div>
             </div>
           ))}
@@ -76,7 +82,7 @@ function AddTodos() {
   const { addTodo } = useTodos();
   const inputRef = useRef<HTMLInputElement>(null);
   return (
-    <div className="card bg-base-100 w-96 shadow-xl">
+    <div className="shadow-xl card bg-base-100 w-96">
       <div className="card-body">
         <input
           type="text"
@@ -92,7 +98,7 @@ function AddTodos() {
         />
         <div className="card-actions ">
           <button
-            className="btn btn-primary w-full"
+            className="w-full btn btn-primary"
             onClick={() => {
               if (!inputRef.current) return;
 

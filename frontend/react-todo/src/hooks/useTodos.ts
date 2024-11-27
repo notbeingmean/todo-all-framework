@@ -12,6 +12,7 @@ type State = {
   addTodo: (title: string) => void;
   updateTodo: (id: number, title: string, completed: boolean) => void;
   toggleTodo: (id: number, completed: boolean) => void;
+  deleteTodo: (id: number) => void;
   fetchTodos: () => void;
 };
 
@@ -58,6 +59,18 @@ export const useTodos = create<State>((set, get) => ({
         { ...todo[index], completed: !completed },
         ...todo.slice(index + 1),
       ],
+    });
+  },
+  deleteTodo: async (id) => {
+    const response = await instance.delete(`/todos/${id}`);
+
+    if (response.status !== 200) return;
+
+    const todo = get().todos;
+    const index = todo.findIndex((todo) => todo.id === id);
+
+    set({
+      todos: [...todo.slice(0, index), ...todo.slice(index + 1)],
     });
   },
 
