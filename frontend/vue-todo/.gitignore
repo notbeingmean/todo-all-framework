@@ -22,11 +22,3 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-
-# IDE - VSCode
-.vscode/*
-
-# Lock Files
-package-lock.json
-yarn.lock
-pnpm-lock.yaml

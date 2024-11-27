@@ -1,16 +1,5 @@
-# Vue Todo App
-this is a simple todo app using vue.js
+# Vue 3 + TypeScript + Vite
 
-## Technologies
-- [Vite](https://vitejs.dev/) - Next Generation Frontend Tooling
-- [Vue.js](https://vuejs.org/) - The Progressive JavaScript Framework
-- [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework for rapid UI development.
-- [DaisyUI](https://daisyui.com/) - Tailwind Components
+This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
 
-## Exprience
-- I start programming with react and i have never used vue.js before. So i think it is a good idea to learn vue.js and make a todo app with it.
-- I have learned how to use Vue.js
-
-## Problems
-- Lack of knowledge about Vue.js
-- Lack of knowledge about Vue.js Props and Emit
+Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
