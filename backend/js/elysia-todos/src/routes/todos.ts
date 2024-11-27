@@ -1,11 +1,13 @@
 import Elysia, { NotFoundError, t } from "elysia";
 import { db } from "../db/db";
 import { todoTable } from "../db/schema";
-import { eq } from "drizzle-orm";
+import { asc, eq } from "drizzle-orm";
 
-const todoRoutes = new Elysia({ prefix: "/todos" })
+const todoRoutes = new Elysia({ prefix: "/api/todos" })
   .get("/", async () => {
-    const todos = await db.query.todoTable.findMany();
+    const todos = await db.query.todoTable.findMany({
+      orderBy: [asc(todoTable.id)],
+    });
     return todos;
   })
   .get(
