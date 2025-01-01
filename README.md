@@ -37,7 +37,8 @@ completed boolean NOT NULL DEFAULT false
 
 #### Backend
 
-- [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - Here is the [repo](https://github.com/NOTMEAN11/todo-all-framework/tree/master/backend/js) for the javascript app
+- [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - Here is the [repo](https://github.com/NOTMEAN11/todo-all-framework/tree/master/backend/js) for the javascript
+app
 <!-- - [Python](https://www.python.org/) - Here is the [repo]() for the python app -->
 - [Go](https://golang.org/) - Here is the [repo](https://github.com/NOTMEAN11/todo-all-framework/tree/master/backend/golang) for the go app
 - [Java](https://www.java.com/) - Here is the [repo](https://github.com/NOTMEAN11/todo-all-framework/tree/master/backend/java) for the java app
